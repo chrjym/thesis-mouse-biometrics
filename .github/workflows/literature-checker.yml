@@ -1,0 +1,43 @@
+name: Weekly Mouse Dynamics Literature Checker
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    # Allows manual trigger anytime from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  check-literature:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Literature Checker
+        env:
+          # Optional: Add SERPAPI_KEY to Repository Secrets to enable Google Scholar querying
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          python references/example-rrl-fetch.py
+
+      - name: Commit and push changes if new candidates discovered
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status -s references/new-candidates.md) ]]; then
+            git add references/new-candidates.md
+            git commit -m "chore(literature): update new candidate papers [skip ci]"
+            git push
+          else
+            echo "No changes in literature candidates."
+          fi

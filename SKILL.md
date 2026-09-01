@@ -1,13 +1,11 @@
 ---
 name: mouse-biometrics-thesis
-description: Use this skill for ANY work on the thesis "Mouse Dynamics Behavioral Biometrics for Continuous Authentication" — drafting or revising thesis chapters (Introduction, RRL, Methodology, Results, Discussion), writing or checking citations, identifying literature gaps, prepping for or logging adviser meetings, and tracking adviser feedback/decisions. Trigger this whenever the user mentions their thesis, RRL, related literature, mouse dynamics, behavioral biometrics, continuous authentication, their thesis adviser, or asks Claude to remember/apply adviser feedback — even if they don't explicitly say "use the skill." Always check references/adviser-log.md for the latest adviser guidance before giving thesis direction, and check references/annotated-bibliography.md before citing or discussing related literature.
+description: Use this skill for ANY work on the thesis "Measuring Behavioral Fingerprints of Users in Mouse Trajectories for Continuous Authentication" (Mouse Dynamics Behavioral Biometrics) — drafting or revising thesis chapters (Introduction, RRL, Methodology, Results, Discussion), writing or checking citations, identifying literature gaps, prepping for or logging adviser meetings, and tracking adviser feedback/decisions. Trigger this whenever the user mentions their thesis, RRL, related literature, mouse dynamics, behavioral biometrics, continuous authentication, user mannerisms / behavioral fingerprints, their thesis adviser, or asks Claude to remember/apply adviser feedback — even if they don't explicitly say "use the skill." Always check references/adviser-log.md for the latest adviser guidance before giving thesis direction, and check references/annotated-bibliography.md before citing or discussing related literature.
 ---
 
 # Mouse Dynamics Behavioral Biometrics Thesis Assistant
 
-Supports work on the thesis **"Mouse Dynamics Behavioral Biometrics for Continuous
-Authentication"** — grounded in the group's compiled Review of Related Literature (RRL) and an
-ongoing log of adviser feedback.
+Supports work on the thesis **"Measuring Behavioral Fingerprints of Users in Mouse Trajectories for Continuous Authentication"** — grounded in the group's compiled Review of Related Literature (RRL) and an ongoing log of adviser feedback. Focuses on capturing user mannerisms from short mouse signals/trajectories.
 
 ## What this skill contains
 
@@ -19,6 +17,8 @@ ongoing log of adviser feedback.
 - `references/measurement-comparison-survey.md` — consolidated survey of mouse dynamics measurements,
   feature descriptions, profile comparison methods, and decision mechanisms across the literature, contrasting
   them directly against our proposed closed-form geometric approach.
+- `references/literature-sources.md` — options, access methods, status, and instructions for querying academic APIs (arXiv, OpenAlex, Semantic Scholar, CORE, Crossref, etc.).
+- `references/example-rrl-fetch.py` — automated fetch and cross-checking script for retrieving candidate literature from free/no-key APIs and comparing against the annotated bibliography.
 - `references/adviser-log.md` — running log of adviser meetings/feedback. Always check it before
   giving thesis direction to ensure alignment with adviser decisions and requests.
 
@@ -30,6 +30,11 @@ ongoing log of adviser feedback.
    flag if a request conflicts with a logged decision.
 2. If relevant, read `references/annotated-bibliography.md` for the specific theme in play
    (see its table of contents) rather than skimming the whole file each time.
+
+**When checking for new literature / candidate papers ("any new papers on this," "check for updates"):**
+1. Reference `references/literature-sources.md` and run or inspect the output of `references/example-rrl-fetch.py`.
+2. Cross-check each candidate's title/DOI against `references/annotated-bibliography.md` (only genuinely new ones matter).
+3. Present new candidates to the user for their review — do not auto-add anything to the annotated bibliography without user confirmation.
 
 **When drafting RRL / Related Literature sections:**
 - Pull from the annotated bibliography, but always paraphrase into the thesis's own voice —

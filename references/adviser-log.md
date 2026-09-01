@@ -20,6 +20,22 @@ Suggested format per entry:
 
 ---
 
+## [2026-08-31] — Scope narrowing: user mannerisms, short mouse signals & tentative title
+
+**Context:** Guidance on narrowing down the operational scope of the study and establishing the formal thesis direction.
+
+**Feedback:** Adviser advised focusing capture directly on the distinct behavioral mannerisms/habits of users (*"Mannerisms ti users latta ngarud ti i-capture yun"*), emphasizing that comparisons should be performed on **short mouse signals/trajectories** (*"Short signals ta mouse ta isu ti i-compare u"*) rather than prolonged or unbounded sessions.
+
+**Decisions:**
+- Narrow the operational scope to extracting behavioral mannerisms from short mouse trajectory signals.
+- Adopted tentative thesis title: **"Measuring Behavioral Fingerprints of Users in Mouse Trajectories for Continuous Authentication"**.
+
+**Open questions:**
+- Operational definition of a "short signal" (e.g., stroke-level segmentation, point-to-point movements between clicks, or sub-second trajectory windows).
+- Specific mannerisms / behavioral markers (e.g., sub-movement corrections, discrete curvature habits, stroke straightness) to prioritize for short-signal fingerprinting.
+
+---
+
 ## [2026-08-28] — Gap identification & adviser's request for a measurement/comparison survey
 
 **Context:** Presented the RRL gap analysis to the adviser, framed as a 4-phase evolution of

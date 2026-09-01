@@ -1,3 +1,21 @@
+# Thesis Task Plan: New Literature Checker & Candidate Tracker
+
+**Task:** Build a runnable literature checker querying arXiv, OpenAlex, Semantic Scholar, and SerpApi Google Scholar, deduplicating across sources, cross-checking against `references/annotated-bibliography.md`, and prepending new candidates to `references/new-candidates.md`.
+**Status:** Done
+**Completed Date:** 2026-08-31
+
+## Deliverables & Actions Taken
+- [x] Read `references/example-rrl-fetch.py`, `references/literature-sources.md`, and `references/annotated-bibliography.md`.
+- [x] Transformed `example-rrl-fetch.py` into a runnable CLI module supporting configurable queries (defaulting to `"mouse dynamics" "authentication"` and `"curvature" "mouse trajectory"`).
+- [x] Implemented multi-source fetchers for arXiv, OpenAlex, Semantic Scholar, and optional Google Scholar via SerpApi (with graceful fallback if `SERPAPI_KEY` is not provided).
+- [x] Built cross-source deduplication via normalized title similarity (Jaccard + SequenceMatcher) and DOI normalization.
+- [x] Built ground-truth extractor from `annotated-bibliography.md` to filter out all known titles, DOIs, and arXiv identifiers.
+- [x] Implemented incremental history-preserving prepending in `references/new-candidates.md`.
+- [x] Created GitHub Actions cron workflow `.github/workflows/literature-checker.yml` scheduled weekly and callable on-demand via `workflow_dispatch`.
+- [x] Preserved `references/annotated-bibliography.md` completely unmodified.
+
+---
+
 # Thesis Task Plan: Measurement & Comparison Survey
 
 **Task:** Synthesize a comprehensive measurement and profile comparison survey for mouse dynamics behavioral biometrics based on adviser feedback dated 2026-08-28.
