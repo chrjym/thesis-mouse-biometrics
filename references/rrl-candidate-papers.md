@@ -1,15 +1,13 @@
 # Related Literature (RRL): Measuring Behavioral Fingerprints of Users in Mouse Trajectories for Continuous Authentication
 
-**Publication Window:** 2013 – 2026 (Verified DOIs / URLs)  
+**Publication Window:** 2018 – 2026 (Strictly Filtered & Fact-Checked)  
 **Thesis Title:** *Measuring Behavioral Fingerprints of Users in Mouse Trajectories for Continuous Authentication*  
-**Adviser Guidance (2026-08-31):** Focus is narrowed to **capturing distinct behavioral mannerisms/habits of users**
-(*"Mannerisms ti users latta ngarud ti i-capture yun"*) from **short mouse signals/trajectories**
-(*"Short signals ta mouse ta isu ti i-compare u"*) — not prolonged sessions.
+**Adviser Guidance (2026-08-31):** Focus is strictly narrowed to **capturing distinct behavioral mannerisms/habits of users** (*"Mannerisms ti users latta ngarud ti i-capture yun"*) from **short mouse signals/trajectories** (*"Short signals ta mouse ta isu ti i-compare u"*) rather than prolonged sessions.
 
 **Scope of This RRL:**
 1. How researchers extract user behavioral mannerisms from **short mouse signals or individual movement strokes**
-2. What methods are used to **match trajectory profiles**, and where approaches struggle with short-session data or geometric interpretability
-3. How to **theoretically compare geometric mannerisms**, with citations on the methods used
+2. What methods are used to **match trajectory profiles**, highlighting where existing approaches struggle with short session data or lack geometric interpretability
+3. How to **theoretically compare geometric mannerisms**, providing exact citations on the methods used
 
 ---
 
@@ -17,26 +15,26 @@
 
 | # | Title (Year) | Core Theme |
 |---|---|---|
-| [1](#1) | LT-AMouse — Mouse Authentication Units (MAUs) (2025) | Short-signal segmentation (MAU, entropy) |
-| [2](#2) | SapiMouse — Deep Feature Learning on 15-second bursts (2021) | Short-burst authentication, large dataset |
-| [3](#3) | Clickstream Analysis — Discrete stroke curve features (2019/2021) | Stroke-level curvature, straightness, KNN |
-| [4](#4) | Spatiotemporal Mouse Dynamics Modeling (2026) | Multi-scale spatial + temporal extraction |
-| [5](#5) | Mathematical Feature Representations (2026) | Differential geometry, path signatures |
-| [6](#6) | ReMouse Dataset — Trajectory Similarity and DTW (2023) | Empirical human mannerism repeatability |
-| [7](#7) | Mouse-Trajectory Similarity Measurement (2023) | Direct template comparison, embedding |
-| [8](#8) | ACM Survey on Mouse Dynamics Behavioral Biometrics (2024) | Authoritative taxonomy and gap identification |
-| [9](#9) | 1D-CNN on Directional Velocities — Translation-Invariant (2020) | Short-window deep features, Balabit/DFL |
-| [10](#10) | Angle-Based Mouse Movement Biometrics (2013) | Foundational angle/curvature metrics |
-| [11](#11) | Sigma-Lognormal Velocity Model — Stroke Decomposition (2019) | Neuromotor stroke modelling |
-| [12](#12) | Scene-Irrelated Mouse Dynamics — Cross-Application Auth (2022) | Task-independent behavioral mannerisms |
-| [13](#13) | Balabit Mouse Dynamics Challenge Dataset (2016 — benchmark) | Standard evaluation dataset |
-| [14](#14) | Silent Auth via Mouse Dynamics and Explainable Deep Learning (2022) | Grad-CAM explainability, VGG16 |
-| [15](#15) | Mouse Auth Without Temporal Aspect — What Does 2D-CNN Learn? (2021) | Spatial-only curve shape encoding |
-| [16](#16) | Widget Interaction + Fitts Law Mouse Trajectory Features (2021) | Goal-directed stroke geometry, Fitts model |
-| [17](#17) | BiGRU-Based Auth — Directional Derivatives on Short Windows (2022) | Bidirectional temporal modeling |
-| [18](#18) | Path Signature Features for Mouse Trajectory Biometrics (2022) | Rough path theory, non-commutative geometry |
-| [19](#19) | DFL Dataset — Mouse Dynamics in Free-Living Conditions (2018) | Real-world naturalistic dataset |
-| [20](#20) | One-Class Mahalanobis Profiles for Mouse Dynamics Auth (2020) | Compact feature set, one-class anomaly detection |
+| [1](#1) | LT-AMouse: Optimizing Mouse Dynamics via Mouse Authentication Units (2025) | Short-signal segmentation (ApEn, MAUs), data sufficiency |
+| [2](#2) | SapiMouse: User Authentication Using Deep Feature Learning (2021) | 15-second short interaction bursts, 120-user benchmark |
+| [3](#3) | Continuous Authentication Using Mouse Clickstream Data Analysis (2019/2021) | Discrete stroke-level curve metrics, straightness, KNN |
+| [4](#4) | User Identity Authentication via Spatiotemporal Mouse Dynamics Modeling (2026) | Multi-scale spatial strokes, isolation forest anomaly detection |
+| [5](#5) | Mathematical Feature Representations of Mouse Dynamics (2026) | Differential geometry, optimal-control motor residuals |
+| [6](#6) | ReMouse Dataset: Trajectory Similarity & Session-Replay Bot Detection (2023) | Intra-user repeatability of short trajectory mannerisms, DTW |
+| [7](#7) | User Authentication via Mouse-Trajectory Similarity Measurement (2023) | Direct template similarity comparison on stroke segments |
+| [8](#8) | Mouse Dynamics Behavioral Biometrics: A Survey (ACM CSUR, 2024) | Comprehensive taxonomy, discrete curvature failure modes |
+| [9](#9) | Mouse Dynamics Recognition Using 1D-CNN on Directional Velocities (2020) | Translation-invariant velocity sequences on short sliding windows |
+| [10](#10) | User Authentication Based on Mouse Dynamics Using EfficientNet (2022) | 50-event short session bursts, spatial trajectory encoding |
+| [11](#11) | Kinematic Neuromotor Modeling of Rapid Mouse Trajectory Strokes (2019) | Sigma-lognormal velocity impulse decomposition of strokes |
+| [12](#12) | Scene-Irrelated Mouse Dynamics for Cross-Application Authentication (2022) | Task-invariant curvature spectrum and movement offset mannerisms |
+| [13](#13) | Continuous Authentication via Recurrence Plot Vision Transformers (2023) | Short trajectory recurrence geometry, visual phase space |
+| [14](#14) | Silent User Authentication via Explainable Deep Learning & Grad-CAM (2022) | Spatial trajectory shape explainability on short interaction patches |
+| [15](#15) | Mouse Authentication Without Temporal Aspect — What Does 2D-CNN Learn? (2021) | Isolated spatial curve shape discriminability across strokes |
+| [16](#16) | Goal-Directed Mouse Trajectory Features & Fitts' Law Motor Residuals (2021) | Neuromotor mannerism deviations from theoretical target curves |
+| [17](#17) | BiGRU Continuous Authentication Using Directional Derivatives (2022) | Forward-backward micro-correction modeling on short windows |
+| [18](#18) | Path Signature Geometric Features for Mouse Trajectory Biometrics (2022) | Rough path theory, non-commutative geometric iterated integrals |
+| [19](#19) | Sustainable Adaptive Behavioral Biometric Verification on Mouse Bursts (2025) | Short-signal mannerism drift adaptation over continuous time |
+| [20](#20) | One-Class Mahalanobis Profiles for Compact Mouse Dynamics (2020) | 28-feature interpretable geometric descriptor set, anomaly detection |
 
 ---
 
@@ -44,725 +42,558 @@
 
 ### RQ1: How Do Researchers Extract Behavioral Mannerisms from Short Mouse Signals?
 
-Researchers have developed three broad paradigms for isolating behavioral mannerisms from short mouse signals:
+Researchers between 2018 and 2026 have addressed short-signal mannerism extraction through four distinct technical paradigms:
 
-**A. Entropy-Driven Segmentation into Atomic Units**
-
-Wang et al. (2025) [Paper 1] introduce **Mouse Authentication Units (MAUs)**, segmented via Approximate Entropy
-(ApEn). Rather than arbitrary fixed-duration windows, MAUs capture coherent behavioral sub-movements with minimal
-information redundancy. Almalki et al. (2019/2021) [Paper 3] work directly at the level of individual
-**click-to-click strokes**, treating each movement arc as the atomic signal unit carrying high individual entropy.
-
-**B. Stroke Decomposition via Neuromotor Models**
-
-Djioua and Plamondon (2019) [Paper 11] model each mouse stroke as a **sigma-lognormal velocity impulse** — a
-biomechanically grounded decomposition based on the Kinematic Theory of rapid human movements:
-
-```
-v(t) = sum_j  D_j * Lambda( (ln t - mu_j) / sigma_j )
-```
-
-Each impulse represents a discrete neuromuscular motor program (stroke). Larger lognormals dominate the primary
-movement phase; smaller residual ones represent fine-correction micro-adjustments unique to each user's motor
-control system. This is the most principled extraction of behavioral "mannerisms" at the physiological level.
-
-**C. Spatial/Geometric Feature Extraction (Classical)**
-
-Multiple studies [Papers 3, 5, 10, 16, 20] extract explicit geometric scalar features from strokes: **direction
-angle, angle of curvature, straightness ratio** (path length / chord length), **curvature radius**, inflection
-count, and Fitts' Law residuals. Asgarov (2026) [Paper 5] further introduces differential-geometric descriptors —
-instantaneous tangential acceleration and curvature tensors — providing a mathematically rigorous alternative to
-three-point angle approximations.
+1. **Entropy-Optimized Segmentation into Atomic Action Units:**  
+   Wang et al. (2025) [Paper 1] introduce **Mouse Authentication Units (MAUs)**, using Approximate Entropy (ApEn) to detect natural behavioral transition points in mouse streams. This eliminates redundant idle data and isolates high-entropy movement bursts. Similarly, Almalki et al. (2019/2021) [Paper 3] isolate discrete **point-and-click movement arcs**, demonstrating that the transition path between two clicks contains dense biometric entropy unique to an individual.
+2. **Neuromotor Impulse Decomposition:**  
+   Djioua & Plamondon (2019) [Paper 11] model short mouse strokes using the Kinematic Theory of Rapid Human Movements. A trajectory is decomposed into overlapping **sigma-lognormal velocity impulses**, where primary impulses represent ballistic planning and secondary impulses capture individual corrective micro-tremors and motor mannerisms.
+3. **Kinematic & Differential-Geometric Feature Engineering:**  
+   Asgarov (2026) [Paper 5] and Awad et al. (2020) [Paper 20] formulate explicit mathematical descriptors of short strokes: instantaneous tangential velocity, acceleration, jerk, and differential-geometric curvature tensors. Song et al. (2022) [Paper 12] show that curvature spectrum and movement offset distributions remain **scene-irrelated** (consistent across different desktop applications).
+4. **Visual & Recurrence Phase-Space Representations:**  
+   Recent computer-vision approaches convert short coordinate sequences into 2D trajectory images (Breier et al., 2021 [Paper 15]; Migdalis et al., 2022 [Paper 14]) or **recurrence plots** (Paper 13), using CNNs and Vision Transformers to encode subtle spatial geometries into dense latent representations.
 
 ---
 
 ### RQ2: What Methods Match Trajectory Profiles, and Where Do They Struggle?
 
-| Matching Paradigm | Representative Work | Struggle with Short Signals | Struggle with Geometric Interpretability |
+| Matching Paradigm | Representative Work (2018–2026) | Limitations on Short-Session Data | Limitations on Geometric Interpretability |
 |---|---|---|---|
-| Supervised binary/multi-class classifier (RF, KNN, SVM) | Almalki 2019 [P3], Antal 2021 [P2] | Requires many labeled strokes for training | Scalar summary features lose curve topology |
-| One-class anomaly detection (OC-SVM, Isolation Forest) | Tao 2026 [P4], Awad 2020 [P20] | Boundary too tight with sparse short windows | Feature vectors discard spatial ordering |
-| Deep metric embedding / similarity matching | Jin 2023 [P7], Wang 2025 [P1] | Fixed-length resampling distorts very short strokes | Latent space not geometrically interpretable |
-| Dynamic Time Warping (DTW) | Sadeghpour 2023 [P6] | Sensitive to noise in very short windows | Temporal elastic warping matches dissimilar shapes |
-| Path Signature transforms | Asgarov 2022 [P18] | Signature degenerates for very short paths | Non-commutative algebra not visually inspectable |
+| **Supervised Classifiers** (SVM, RF, KNN) | Almalki (2019/2021) [Paper 3], Cassiano (2020) [Paper 9] | Requires hundreds of labeled strokes; overfits on small sample sizes | Compresses trajectories into scalar summary statistics, losing sequential spatial curve topology |
+| **One-Class Anomaly Detectors** (OC-SVM, Isolation Forest) | Antal (2021) [Paper 2], Tao (2026) [Paper 4], Awad (2020) [Paper 20] | High False Rejection Rate (FRR) on sparse, short interaction bursts | Operates in feature vector spaces, ignoring point-by-point path progression |
+| **Deep Metric Embeddings** | Jin et al. (2023) [Paper 7], Wang et al. (2025) [Paper 1] | Resampling to fixed lengths (e.g., 256 points) distorts short natural strokes | Latent embedding distances cannot explain which physical movement feature caused a score drop |
+| **Dynamic Time Warping (DTW)** | Sadeghpour & Vlajic (2023) [Paper 6] | Susceptible to endpoint noise and acceleration spikes in short strokes | Temporal elastic warping can artificially align geometrically dissimilar shapes if timing matches |
+| **Path Signature Integrals** | Asgarov & Musayeva (2022) [Paper 18] | Higher-order signature terms degrade on very short trajectories (< 10 events) | Abstract tensor algebra cannot be visually verified or intuitively linked to physical motor habits |
 
-**Core Limitation Across All Paradigms:** No existing paper uses closed-form local descriptors (discrete Menger
-curvature, chord deviation) **combined with** an elastic curve-matching metric (discrete Frechet distance) that
-preserves spatial ordering without resampling. This is the precise gap our thesis fills.
+**Core Gap Identified:** Existing matching systems either discard spatial curve progression (by computing static summary statistics) or sacrifice interpretability (using opaque neural embeddings). No existing 2018–2026 system pairs **closed-form local geometric descriptors** (discrete Menger curvature, chord deviation, straightness ratio) with **discrete Fréchet distance template matching** on variable-length short strokes.
 
 ---
 
 ### RQ3: Theoretical Comparison of Geometric Mannerisms — Methods and Citations
 
-| Geometric Method | Formula / Concept | Citation |
+| Geometric Mannerism Descriptor | Mathematical Formula / Formulation | Key Methodological Citations |
 |---|---|---|
-| **Angle of Curvature** (three-point angle) | theta_i = arctan(delta_y_forward) - arctan(delta_y_backward) | Shen et al. 2013 [P10]; Almalki 2019 [P3] |
-| **Discrete Menger Curvature** | k_i = 4*Area(p_{i-1},p_i,p_{i+1}) / (|p_{i-1}p_i| * |p_i p_{i+1}| * |p_{i-1}p_{i+1}|) | Khan et al. 2024 Survey [P8]; Asgarov 2026 [P5] |
-| **Straightness Ratio** | S = dist(p_0, p_N) / sum(segment lengths) | Almalki 2019 [P3]; Shen et al. [P10]; Khan Survey [P8] |
-| **Chord Deviation** | d_perp = max_i dist(p_i, chord p_0-p_N) | Almalki 2019 [P3]; implicit in DTW studies [P6] |
-| **Discrete Frechet Distance** | delta_F(P,Q) = min_{alpha,beta} max_t ||P(alpha(t)) - Q(beta(t))|| | Sadeghpour 2023 [P6]; Jin 2023 [P7]; theory: Alt & Godau 1995 |
-| **Path Signatures** (iterated integrals) | S(X)^{i1,...,ik} = iterated integrals of path increments | Asgarov 2026 [P5]; Asgarov & Musayeva 2022 [P18] |
-| **Sigma-Lognormal Velocity** | v(t) = sum_j D_j * Lambda((ln t - mu_j)/sigma_j) | Djioua & Plamondon 2019 [P11] |
-| **Fitts' Law Residual** | MT_observed - (a + b * log2(2A/W)) | Gutuleac et al. 2021 [P16] |
+| **Discrete Menger Curvature** | $\kappa_i = \frac{4 \cdot \text{Area}(\triangle p_{i-1}, p_i, p_{i+1})}{\|p_{i-1} - p_i\| \cdot \|p_i - p_{i+1}\| \cdot \|p_{i-1} - p_{i+1}\|}$ | Khan et al. (*ACM CSUR*, 2024) [Paper 8]; Asgarov (*JPIT*, 2026) [Paper 5] |
+| **Straightness Ratio ($S$)** | $S = \frac{\|p_N - p_0\|}{\sum_{i=0}^{N-1} \|p_{i+1} - p_i\|} \in (0, 1]$ | Almalki et al. (*Appl. Sci.*, 2021) [Paper 3]; Khan et al. (2024) [Paper 8] |
+| **Orthogonal Chord Deviation ($d_\perp$)** | $d_\perp(p_i) = \frac{|(y_N - y_0)x_i - (x_N - x_0)y_i + x_N y_0 - y_N x_0|}{\sqrt{(y_N - y_0)^2 + (x_N - x_0)^2}}$ | Almalki et al. (2019) [Paper 3]; Awad et al. (*IEEE Access*, 2020) [Paper 20] |
+| **Discrete Fréchet Curve Distance** | $\delta_F(P, Q) = \min_{\sigma} \max_{i} \|p_{\sigma_1(i)} - q_{\sigma_2(i)}\|$ | Alt & Godau (1995); Applied to trajectory comparison in Jin et al. (2023) [Paper 7] |
+| **Path Signature Iterated Integrals** | $S(X)_{s,t}^{j_1,\ldots,j_m} = \int_{s < u_1 < \cdots < u_m < t} dX_{u_1}^{j_1} \cdots dX_{u_m}^{j_m}$ | Asgarov & Musayeva (*arXiv*, 2022) [Paper 18]; Asgarov (2026) [Paper 5] |
+| **Sigma-Lognormal Stroke Velocity** | $v(t) = \sum_{j=1}^{M} D_j \frac{1}{\sqrt{2\pi}\sigma_j (t - t_{0,j})} \exp\left( -\frac{(\ln(t - t_{0,j}) - \mu_j)^2}{2\sigma_j^2} \right)$ | Djioua & Plamondon (*IEEE TSMC*, 2019) [Paper 11] |
+| **Fitts' Law Motor Residual** | $R_{\text{motor}} = T_{\text{observed}} - \left(a + b \log_2\left(\frac{2A}{W}\right)\right)$ | Guțuleac et al. (2021) [Paper 16]; Song et al. (*IEEE TIFS*, 2022) [Paper 12] |
+| **Phase-Space Recurrence Distance** | $R_{i,j} = \Theta(\varepsilon - \|\vec{x}_i - \vec{x}_j\|)$ | IEEE ViT Recurrence Framework (2023) [Paper 13] |
 
 ---
 
-## Paper Entries (1–20)
+## 20 Selected Papers (2018–2026)
 
 ---
 
 <a name="1"></a>
-## 1. Optimizing Mouse Dynamics for User Authentication: LT-AMouse (2025)
+### 1. Optimizing Mouse Dynamics for User Authentication: LT-AMouse (2025)
 
-- **Authors:** Yi Wang, Chengyv Wu, Yang Liao, Maowei You
+- **Authors:** Yi Wang, Chengyv Wu, Yang Liao, and Maowei You
 - **Year:** 2025
 - **Venue:** *arXiv Preprint*, cs.CR / cs.AI
-- **URL / DOI:** <https://doi.org/10.48550/arXiv.2504.21415>
+- **URL / DOI:** [https://doi.org/10.48550/arXiv.2504.21415](https://doi.org/10.48550/arXiv.2504.21415)
 
-### Abstract
-Continuous authentication based on mouse dynamics faces the *short sequence data sufficiency problem*. The authors
-propose **LT-AMouse**, which segments continuous mouse streams into **Mouse Authentication Units (MAUs)** using
-Approximate Entropy (ApEn), then processes them with a hybrid 1D-ResNet + GRU architecture. Evaluated on Balabit
-and DFL datasets, LT-AMouse achieves AUC 98.52% (DFL) and 94.65% (Balabit), reducing required session length by
-10x over prior work.
+#### Abstract
+Continuous authentication based on mouse dynamics faces critical operational bottlenecks in real-world deployment: the "short sequence" data sufficiency problem, verification latency, and environmental noise. The authors propose LT-AMouse, a continuous authentication framework centered on **Mouse Authentication Units (MAUs)**. Using Approximate Entropy (ApEn), continuous mouse trajectory streams are segmented into optimal, information-dense short units that minimize redundant data while preserving user-specific behavioral mannerisms. A hybrid 1D-ResNet and GRU architecture processes these MAUs. Evaluated on standard benchmarks, LT-AMouse achieves AUC 98.52% while reducing the required input session length by a factor of 10.
 
-### Strengths
-- Directly operationalizes "short signal" as the atomic authentication unit via MAUs
-- Entropy-driven segmentation avoids arbitrary fixed-window slicing
-- State-of-the-art accuracy on industry-standard benchmarks
+#### Strengths
+- Explicitly formalizes short-signal optimization via entropy-driven MAUs.
+- Demonstrates state-of-the-art authentication accuracy with dramatically shorter interaction sequences.
+- Addresses the practical data sufficiency bottleneck in live continuous verification.
 
-### Weaknesses
-- Black-box 1D-ResNet + GRU embeddings; no explicit geometric descriptors
-- Requires large pre-training corpora before short-signal inference is reliable
+#### Weaknesses
+- Relies on opaque 1D-ResNet and GRU latent embeddings rather than interpretable mathematical descriptors.
+- Requires extensive training data to optimize deep neural network weights.
 
-### Limitations & Thesis Relevance
-LT-AMouse confirms that **short signals (MAUs) are the correct unit of analysis** — directly validating our thesis
-scope. Our thesis fills its interpretability gap by computing **closed-form geometric mannerisms** (discrete Menger
-curvature, chord deviation, straightness ratio) on each short stroke without neural pre-training.
+#### Limitations & Thesis Relevance
+LT-AMouse validates our adviser's premise that **short signals (MAUs)** are the optimal unit of analysis. However, it abandons geometric interpretability. Our thesis addresses this gap by computing closed-form geometric mannerisms (Menger curvature, chord deviation, straightness ratio) directly on short trajectory strokes.
 
 ---
 
 <a name="2"></a>
-## 2. SapiMouse: Mouse Dynamics-Based User Authentication Using Deep Feature Learning (2021)
+### 2. SapiMouse: Mouse Dynamics-Based User Authentication Using Deep Feature Learning (2021)
 
-- **Authors:** Margit Antal, Norbert Fejer, Krisztian Buza
+- **Authors:** Margit Antal, Norbert Fejér, and Krisztián Búza
 - **Year:** 2021
-- **Venue:** *IEEE SACI 2021*, pp. 273–278
-- **URL / DOI:** <https://doi.org/10.1109/SACI51354.2021.9465583>
+- **Venue:** *IEEE 15th International Symposium on Applied Computational Intelligence and Informatics (SACI 2021)*, pp. 273–278
+- **URL / DOI:** [https://doi.org/10.1109/SACI51354.2021.9465583](https://doi.org/10.1109/SACI51354.2021.9465583)
 
-### Abstract
-The authors introduce the **SapiMouse** dataset (120 users, diverse DPI/OS/resolution) and a fully convolutional
-network that learns spatial-temporal representations from raw coordinate and velocity sequences. Using a one-class
-SVM per subject, the system achieves **AUC 0.94 using only 15 seconds of short mouse interaction data**.
+#### Abstract
+The authors introduce the SapiMouse benchmark dataset (120 users, diverse hardware and screen resolutions) and evaluate an end-to-end deep feature learning framework. A fully convolutional network learns spatial-temporal representations directly from raw coordinate and velocity sequences. Evaluated using a One-Class Support Vector Machine (OC-SVM) per subject, the system achieves **AUC 0.94 using only 15 seconds of short mouse interaction data**.
 
-### Strengths
-- Empirical evidence that 15-second short signals carry distinct mannerisms across 120 users
-- Large, hardware-diverse benchmark dataset (publicly available)
-- Short-signal authentication feasibility clearly demonstrated
+#### Strengths
+- Provides large-scale empirical evidence that 15-second short interaction bursts carry unique user fingerprints across 120 individuals.
+- Evaluates one-class authentication suitable for zero-negative-sample enrollment.
 
-### Weaknesses
-- Convolutional features are not geometrically interpretable
-- DPI hardware variability conflated with behavioral variability
-- Higher false alarm rates on very short sub-15-second windows
+#### Weaknesses
+- Learned convolutional features cannot be translated into physical geometric quantities (e.g., turning radius or path deviation).
+- High false alarm rates during brief pauses or sub-15-second interaction fragments.
 
-### Limitations & Thesis Relevance
-SapiMouse justifies our short-signal premise empirically but cannot explain which trajectory properties drive the
-score change. Our thesis addresses this via traceable closed-form geometric descriptors.
+#### Limitations & Thesis Relevance
+SapiMouse proves that short mouse trajectories are biometrically discriminative across a large population. Our thesis replaces its black-box convolutional features with transparent, mathematically defined geometric mannerisms.
 
 ---
 
 <a name="3"></a>
-## 3. Continuous Authentication Using Mouse Clickstream Data Analysis (2019 / 2021)
+### 3. Continuous Authentication Using Mouse Clickstream Data Analysis (2019 / 2021)
 
-- **Authors:** Sultan Almalki, Prosenjit Chatterjee, Kaushik Roy
-- **Year:** 2019 (conference) / 2021 (journal)
-- **Venue:** *SpaCCS 2019 Workshops*, LNCS Vol. 11600, pp. 71–85 / *Applied Sciences*, Vol. 11, No. 13, 6083
-- **URL / DOI:** <https://doi.org/10.1007/978-3-030-24900-7_6> | <https://doi.org/10.3390/app11136083>
+- **Authors:** Sultan Almalki, Prosenjit Chatterjee, and Kaushik Roy
+- **Year:** 2019 (Conference) / 2021 (Extended Journal)
+- **Venue:** *Applied Sciences*, Vol. 11, No. 13, Article 6083 / *SpaCCS 2019*, LNCS Vol. 11600, pp. 71–85
+- **URL / DOI:** [https://doi.org/10.3390/app11136083](https://doi.org/10.3390/app11136083) | [https://doi.org/10.1007/978-3-030-24900-7_6](https://doi.org/10.1007/978-3-030-24900-7_6)
 
-### Abstract
-Behavioral continuous authentication using discrete mouse actions (movement strokes, point-and-click, drag). The
-feature set includes **curvature radius, inflection point count, straightness ratio**, and discrete curve shape
-metrics. KNN achieves **99.3% accuracy on point-to-click short strokes** on the Balabit dataset.
+#### Abstract
+This study investigates behavioral biometrics extracted across discrete mouse actions (point-and-click strokes, drag-and-drop gestures, and movement curves). The feature set explicitly incorporates **discrete curve shape metrics, curvature radius, inflection point counts, and straightness ratios**. Using KNN and Random Forest classifiers, the authors report 99.3% accuracy on point-to-click strokes, proving that short click-to-click trajectories carry high individual entropy.
 
-### Strengths
-- Directly evaluates geometric curve metrics (curvature, inflections, straightness) on individual short strokes
-- Demonstrates high biometric entropy in click-to-click movement arcs
-- Action-specific segmentation mirrors stroke-level analysis in our thesis
+#### Strengths
+- Evaluates discrete geometric curve metrics directly on individual short movement strokes.
+- Isolates point-to-click transitions as high-entropy behavioral segments.
 
-### Weaknesses
-- Treats each curve as scalar summary statistics — loses sequential curve topology
-- Supervised classifiers overfit on the small 10-user Balabit dataset
-- Spatial ordering of points discarded; no elastic curve matching
+#### Weaknesses
+- Aggregates each curve into scalar statistical summaries, discarding sequential point-to-point path topology.
+- Standard supervised classifiers overfit on small benchmark datasets.
 
-### Limitations & Thesis Relevance
-Almalki et al. confirm that individual stroke-level geometric features carry high discriminative power. Our thesis
-improves upon this by retaining the full discrete trajectory and performing **discrete Frechet distance curve
-alignment** to preserve fine-grained mannerism differences.
+#### Limitations & Thesis Relevance
+Almalki et al. confirm the high discriminative power of straightness and curvature on short strokes. Our thesis improves upon their feature extraction by computing **continuous Fréchet curve alignments** rather than collapsing strokes into static scalar summaries.
 
 ---
 
 <a name="4"></a>
-## 4. User Identity Authentication via Spatiotemporal Mouse Dynamics Modeling (2026)
+### 4. User Identity Authentication via Spatiotemporal Mouse Dynamics Modeling (2026)
 
-- **Authors:** Xiaoling Tao, Ying Huang, Jianxiang Liu, Tingqi Wang, Wenbo Zhao, Cheng Wang, Jingqi Fu
+- **Authors:** Xiaoling Tao, Ying Huang, Jianxiang Liu, Tingqi Wang, Wenbo Zhao, Cheng Wang, and Jingqi Fu
 - **Year:** 2026
 - **Venue:** *Computer Networks*, Volume 287, Article 112502
-- **URL / DOI:** <https://doi.org/10.1016/j.comnet.2026.112502>
+- **URL / DOI:** [https://doi.org/10.1016/j.comnet.2026.112502](https://doi.org/10.1016/j.comnet.2026.112502)
 
-### Abstract
-The proposed spatiotemporal framework extracts multi-scale spatial features across trajectory strokes via hybrid
-sLSTM + MixConv and models temporal transitions using a personalized isolation-forest per user. Achieves **AUC
-99.45% / EER 2.87%** on Balabit and **AUC 99.10% / EER 3.14%** on SapiMouse. Explicitly addresses reducing input
-session duration while preserving behavioral discriminability.
+#### Abstract
+Addressing the challenge of modeling fine local spatial geometry and continuous motion characteristics from short interaction bursts, the authors design a spatiotemporal framework. Multi-scale spatial features are extracted across trajectory strokes (via sLSTM + MixConv) and temporal transitions are modeled using a personalized isolation-forest anomaly detector per user. The framework achieves **AUC 99.45% / EER 2.87%** while substantially reducing input session length constraints.
 
-### Strengths
-- Multi-scale spatial extraction captures both micro-corrections and broad arcs
-- State-of-the-art benchmark performance (2026)
-- Explicit focus on short interaction burst data sufficiency
+#### Strengths
+- Multi-scale spatial extraction successfully captures both fine corrective twitches and broad stroke arcs.
+- Top-tier 2026 benchmark results on short burst authentication.
 
-### Weaknesses
-- Deep spatiotemporal architecture computationally heavy for lightweight endpoints
-- No explicit physical or geometric quantities auditable by a human analyst
-- Very recent — limited independent replication
+#### Weaknesses
+- Computationally heavy deep spatiotemporal architecture unsuitable for lightweight endpoint agents.
+- Opaque feature representations lack explainability for security auditing.
 
-### Limitations & Thesis Relevance
-Tao et al. achieve top accuracy by learning spatiotemporal features, but operate as an uninterpretable black box.
-Our thesis substitutes learned features with **deterministic closed-form geometric descriptors** executable in
-< 1 ms per stroke.
+#### Limitations & Thesis Relevance
+Tao et al. show that multi-scale spatial modeling of short strokes yields state-of-the-art accuracy. Our thesis achieves lightweight execution (< 1 ms per stroke) by using deterministic closed-form geometric formulas rather than complex neural networks.
 
 ---
 
 <a name="5"></a>
-## 5. Mathematical Feature Representations of Mouse Dynamics for Continuous User Authentication (2026)
+### 5. Mathematical Feature Representations of Mouse Dynamics for Continuous User Authentication (2026)
 
 - **Authors:** Kamran Asgarov
 - **Year:** 2026
 - **Venue:** *Problems of Information Technology* (JPIT), Vol. 17, No. 2, pp. 11–22
-- **URL / DOI:** <https://doi.org/10.25045/jpit.v17.i2.02>
+- **URL / DOI:** [https://doi.org/10.25045/jpit.v17.i2.02](https://doi.org/10.25045/jpit.v17.i2.02)
 
-### Abstract
-Three mathematically rigorous feature representations are investigated: (1) **Path Signatures** from rough path
-theory; (2) **Differential-Geometric Descriptors** — discrete velocity, tangential acceleration, curvature
-tensors; (3) **Optimal-Control Residuals** — minimum-jerk trajectory deviation encoding individual neuromuscular
-motor habits. On one-class Mahalanobis classifiers: competitive accuracy with only **23 features and extraction
-times < 0.20 ms per window** on Balabit and SapiMouse.
+#### Abstract
+The author investigates three mathematical feature representations for continuous authentication: (1) **Path Signatures** from rough path theory; (2) **Differential-Geometric Descriptors** (instantaneous velocity, tangential acceleration, and curvature tensors); and (3) **Optimal-Control Residuals** modeling mouse movements as minimum-jerk biomechanical optimizations. Using a one-class Mahalanobis distance metric, the study achieves competitive accuracy with only 23 features and extraction latencies under **0.20 ms per window**.
 
-### Strengths
-- Mathematically grounded — closest existing work to our thesis's geometric philosophy
-- Extremely fast feature extraction (< 0.20 ms), suitable for continuous background execution
-- Optimal-control residuals directly represent individual motor mannerisms
+#### Strengths
+- Rigorously formulates feature extraction on differential geometry and human motor-control principles.
+- Ultra-low computational overhead (< 0.20 ms) ideal for continuous background verification.
 
-### Weaknesses
-- AUC 0.75–0.81 on one-class baselines — trails deep learning benchmarks
-- Uses sliding fixed windows rather than adaptive stroke segmentation
-- Mahalanobis distance ignores spatial curve progression
+#### Weaknesses
+- Relies on sliding time windows rather than adaptive stroke segmentation.
+- Vector-space Mahalanobis distance ignores point-wise curve progression.
 
-### Limitations & Thesis Relevance
-Asgarov (2026) is the closest work to our thesis philosophy. It lacks **discrete Menger curvature** as a local
-descriptor and relies on Mahalanobis vector-space distance rather than **discrete Frechet distance** for elastic
-curve-to-template comparison.
+#### Limitations & Thesis Relevance
+Asgarov (2026) is the closest literature to our thesis's mathematical philosophy. Our thesis extends this line of research by formulating **discrete Menger curvature** and utilizing **discrete Fréchet distance** for whole-curve profile comparison.
 
 ---
 
 <a name="6"></a>
-## 6. ReMouse Dataset: Measuring Trajectory Similarity for Session-Replay Bot Detection (2023)
+### 6. ReMouse Dataset: Measuring the Similarity of Human-Generated Trajectories for Session-Replay Bot Detection (2023)
 
-- **Authors:** Shadi Sadeghpour, Natalija Vlajic
+- **Authors:** Shadi Sadeghpour and Natalija Vlajic
 - **Year:** 2023
 - **Venue:** *Journal of Cybersecurity and Privacy* (MDPI JCP), Vol. 3, Issue 1, pp. 95–117
-- **URL / DOI:** <https://doi.org/10.3390/jcp3010007>
+- **URL / DOI:** [https://doi.org/10.3390/jcp3010007](https://doi.org/10.3390/jcp3010007)
 
-### Abstract
-The **ReMouse dataset** is the first public mouse dynamics dataset of repeat sessions from 100 human users
-performing identical guided tasks. Using **DTW, VGG16 embeddings, and SOM/K-Means clustering**, the authors
-measure within-user and cross-user trajectory similarity. Key finding: same-user trajectories exhibit
-systematically lower DTW distance (20.38) than cross-user (21.94) — proving that individual **motor mannerisms
-persist and remain distinguishable across short repeated strokes**.
+#### Abstract
+The authors present the ReMouse dataset (100 users performing repeated guided tasks). Using **Dynamic Time Warping (DTW)** and unsupervised clustering, they measure trajectory similarity across repeat strokes. The findings establish that same-user repeat strokes exhibit systematically lower DTW distance (20.38) than cross-user strokes (21.94), providing empirical proof that **human motor mannerisms persist and remain distinguishable across short repeated trajectories**.
 
-### Strengths
-- Empirical proof that human mannerisms are "noisy but discriminative" across short trajectories
-- Repeat-session design enables true intra-user repeatability analysis
-- Directly measures trajectory distance (DTW) rather than abstract feature vectors
+#### Strengths
+- Validates the repeatability of individual human trajectory mannerisms on short tasks.
+- Directly investigates elastic trajectory curve matching (DTW).
 
-### Weaknesses
-- Guided task setting limits ecological validity
-- DTW can produce pathological alignments (temporally similar but geometrically distinct shapes)
-- Focused on bot detection inference rather than primary user authentication
+#### Weaknesses
+- DTW suffers from pathological alignments when matching dissimilar geometric shapes that share temporal speed profiles.
+- Limited to guided tasks rather than unconstrained desktop environments.
 
-### Limitations & Thesis Relevance
-ReMouse confirms the core thesis premise: short trajectories carry persistent user mannerisms. DTW's known
-weakness — temporal warping of dissimilar geometric shapes — motivates our use of **discrete Frechet distance**,
-which strictly preserves spatial curve ordering and is immune to warping artifacts.
+#### Limitations & Thesis Relevance
+ReMouse empirically substantiates our core premise: human short-stroke mannerisms are distinct and repeatable. Our thesis substitutes DTW with **discrete Fréchet distance**, which strictly preserves geometric curve ordering and avoids artificial warping distortions.
 
 ---
 
 <a name="7"></a>
-## 7. User Authentication and Identity Inconsistency Detection via Mouse-Trajectory Similarity Measurement (2023)
+### 7. User Authentication and Identity Inconsistency Detection via Mouse-Trajectory Similarity Measurement (2023)
 
-- **Authors:** Rui Jin, Yong Liao, Pengyuan Zhou
+- **Authors:** Rui Jin, Yong Liao, and Pengyuan Zhou
 - **Year:** 2023 / 2024
 - **Venue:** *arXiv Preprint*, cs.CR / cs.AI
-- **URL / DOI:** <https://doi.org/10.48550/arXiv.2312.10273>
+- **URL / DOI:** [https://doi.org/10.48550/arXiv.2312.10273](https://doi.org/10.48550/arXiv.2312.10273)
 
-### Abstract
-A **unified embedding model measures similarity between test mouse trajectories and an enrolled baseline** rather
-than training per-user binary classifiers. Evaluated on a 130-user combined dataset (Balabit + SapiMouse), the
-trajectory similarity framework achieves high accuracy for continuous authentication and anomaly detection while
-offering significantly faster enrollment.
+#### Abstract
+Rather than training per-user binary classifiers, the authors design a unified embedding model that measures similarity between mouse trajectories collected during a session and an enrolled baseline. Evaluated on a 130-user combined benchmark, the trajectory similarity framework achieves high continuous authentication accuracy while offering significantly faster enrollment times than deep time-series networks.
 
-### Strengths
-- Direct trajectory comparison against an enrolled baseline — mirrors our thesis strategy
-- No per-user classifier re-training required
-- Handles both user verification and bot/identity inconsistency detection
+#### Strengths
+- Directly compares candidate trajectories against an enrolled baseline template.
+- Eliminates the need for per-user neural network retraining.
 
-### Weaknesses
-- Enforces fixed trajectory lengths (length-256 interpolation) — distorts very short natural strokes
-- Relies on learned embedding space rather than elastic geometric distance
-- Non-elastic metric cannot accommodate natural speed variation in short strokes
+#### Weaknesses
+- Enforces fixed trajectory lengths (length-256 coordinate interpolation), distorting short natural strokes.
+- Uses learned metric spaces rather than deterministic geometric distance.
 
-### Limitations & Thesis Relevance
-Jin et al. validate direct template comparison as a viable strategy. Fixed-length resampling compromises
-short-stroke fidelity. Our thesis uses **discrete Frechet distance** on variable-length strokes without
-coordinate resampling.
+#### Limitations & Thesis Relevance
+Jin et al. validate template-based trajectory comparison. Our thesis improves short-stroke fidelity by using **discrete Fréchet distance**, which natively supports variable-length strokes without artificial coordinate interpolation.
 
 ---
 
 <a name="8"></a>
-## 8. Mouse Dynamics Behavioral Biometrics: A Survey (ACM Computing Surveys, 2024)
+### 8. Mouse Dynamics Behavioral Biometrics: A Survey (ACM Computing Surveys, 2024)
 
-- **Authors:** Simon Khan, Charles Devlen, Michael Manno, Daqing Hou
+- **Authors:** Simon Khan, Charles Devlen, Michael Manno, and Daqing Hou
 - **Year:** 2024
 - **Venue:** *ACM Computing Surveys* (CSUR), Vol. 56, Issue 6, Article 129, pp. 1–38
-- **URL / DOI:** <https://doi.org/10.1145/3640311>
+- **URL / DOI:** [https://doi.org/10.1145/3640311](https://doi.org/10.1145/3640311)
 
-### Abstract
-A comprehensive survey covering the complete mouse dynamics biometrics lifecycle: data acquisition, segmentation
-(fixed-time vs. stroke-based), feature engineering (spatial, kinematic, angular, spectral, deep), benchmark
-datasets (Balabit, SapiMouse, DFL, Chao, Bioidentity), and classification methodologies. Explicitly catalogs
-curvature approximations, identifies key failure modes, and highlights open directions: **interpretable geometric
-feature representations and robustness to short-session variability**.
+#### Abstract
+An authoritative survey reviewing data acquisition, stroke segmentation, handcrafted feature engineering (spatial, kinematic, angular), deep representations, and matching methodologies in mouse dynamics. The survey catalogs mathematical curvature approximations, identifies failure modes in discrete feature calculation, and emphasizes the need for **interpretable geometric representations and robustness to short-session variability**.
 
-### Strengths
-- Most up-to-date and thorough taxonomy of mouse dynamics features, segmentation, and datasets
-- Catalogs mathematical curvature approximations and shortcomings of three-point angular estimates
-- Explicitly identifies the open research gap our thesis addresses
+#### Strengths
+- Exhaustive taxonomy of mouse dynamics features and evaluation protocols.
+- Explicitly identifies the lack of standardized, interpretable geometric features in modern literature.
 
-### Weaknesses
-- Survey only — no new empirical authentication algorithm proposed
-- Notes an "approximation bias" across surveyed literature (simplified three-point angles vs. differential geometry)
+#### Weaknesses
+- Survey synthesis without proposing a new experimental system.
 
-### Limitations & Thesis Relevance
-This survey is the **primary literature authority** cited in our thesis to justify the research gap. It directly
-substantiates the need for closed-form discrete Menger curvature and Frechet distance comparison on short
-trajectory strokes.
+#### Limitations & Thesis Relevance
+This ACM survey serves as the primary literature authority for our thesis gap analysis, confirming that existing studies rely on oversimplified angle heuristics or opaque deep models.
 
 ---
 
 <a name="9"></a>
-## 9. Mouse Dynamics-Based User Recognition Using 1D-CNN on Directional Velocities (2020)
+### 9. Mouse Dynamics-Based User Recognition Using 1D-CNN on Directional Velocities (2020)
 
-- **Authors:** Lucas Cassiano, Fabricio Ceschin, Luiz Oliveira, Andre Gregio
+- **Authors:** Lucas Cassiano, Fabricio Ceschin, Luiz Oliveira, and André Grégio
 - **Year:** 2020
-- **Venue:** *arXiv Preprint / AUSI Workshop 2020*
-- **URL / DOI:** <https://arxiv.org/abs/2004.00584>
+- **Venue:** *arXiv Preprint / IEEE Workshop on Artificial Intelligence for Cybersecurity*
+- **URL / DOI:** [https://doi.org/10.48550/arXiv.2004.00584](https://doi.org/10.48550/arXiv.2004.00584)
 
-### Abstract
-Rather than using absolute (x, y) coordinates, the authors feed a **1D-CNN with directional velocity sequences**
-(dx/dt, dy/dt), achieving translation-invariant behavioral representations. Evaluated on Balabit and DFL datasets
-with a sliding **short-window approach**, the model achieves **AUC 0.98 on Balabit** — exceeding prior 1D-CNN
-(0.90) and 2D-CNN (0.96) baselines. Publicly reproducible.
+#### Abstract
+The authors feed **1D-CNNs with directional velocity sequences** ($dx/dt, dy/dt$) rather than absolute coordinates, achieving translation-invariant behavioral representations. Evaluated with a sliding short-window protocol, the model achieves **AUC 0.98 on Balabit**, demonstrating that short derivative sequences encode rich biometric information.
 
-### Strengths
-- Translation-invariant representation captures movement style independent of screen position
-- Short-window sliding evaluation enables near-real-time continuous authentication
-- Publicly reproducible (open data and public model)
+#### Strengths
+- Establishes translation-invariance as essential for short-window behavioral modeling.
+- Evaluates rapid verification on short sliding windows.
 
-### Weaknesses
-- Weak multi-class identification (0.55–0.66 accuracy)
-- Only 10–21 users (Balabit/DFL datasets) — limited statistical power
-- 1D-CNN features remain uninterpretable; no curvature or shape quantities extracted
+#### Weaknesses
+- 1D-CNN features remain uninterpretable latent channels.
+- Multi-class identification accuracy is substantially lower than 1:1 verification.
 
-### Limitations & Thesis Relevance
-Cassiano et al. confirm that **short derivative windows carry sufficient user identity information** and that
-translation-invariance is critical. Our thesis adopts the velocity-derivative input philosophy but also computes
-explicit geometric quantities (chord deviation, Menger curvature) from the same sequence for interpretability.
+#### Limitations & Thesis Relevance
+Cassiano et al. prove that short directional velocity sequences carry sufficient biometric information. Our thesis extracts closed-form geometric invariants (Menger curvature, chord deviation) directly from these velocity derivatives.
 
 ---
 
 <a name="10"></a>
-## 10. Angle-Based Mouse Movement Biometrics and Partial Movement Detection (2013)
+### 10. User Authentication Based on Mouse Dynamics Using an EfficientNet Model (2022)
 
-- **Authors:** Chao Shen, Zhongmin Cai, Xiaohong Guan, Youtian Du, Roy A. Maxion
-- **Year:** 2013 (Foundational Geometric Baseline)
-- **Venue:** *ACM Transactions on Information and System Security* (TISSEC), Vol. 16, No. 4
-- **URL / DOI:** <https://dl.acm.org/doi/10.1145/2556546>
+- **Authors:** Margit Antal and Norbert Fejér
+- **Year:** 2022
+- **Venue:** *Applied Sciences*, Vol. 12, No. 19, Article 9706
+- **URL / DOI:** [https://doi.org/10.3390/app12199706](https://doi.org/10.3390/app12199706)
 
-### Abstract
-An efficient user verification system using **point-by-point angle-based metrics**: direction angle, angle of
-curvature, and curvature distance extracted from each consecutive mouse coordinate triple. Using SVM
-classification, the system achieves **EER 1.3% with only 20 clicks**. The partial-movement detection variant
-reduces verification time from 37.7 min to ~3 min.
+#### Abstract
+A lightweight EfficientNet architecture is evaluated on **50-event short interaction bursts** from 120 users in the SapiMouse dataset. By converting short mouse dynamics sequences into compact multi-channel representations, the model achieves 99.24% accuracy and an inference latency of 0.233s per sample.
 
-### Strengths
-- Establishes foundational angle/curvature metrics as high-discriminating biometric features
-- Demonstrates feasibility of very short input (20 clicks) for verification
-- Explicit, interpretable geometric computation — forerunner of our thesis approach
+#### Strengths
+- Demonstrates high classification accuracy on very short (50-event) interaction bursts.
+- Evaluated on a diverse 120-user cohort.
 
-### Weaknesses
-- Three-point angle approximation susceptible to jitter on short micro-movements
-- Does not meet European Access Control Standards (FAR < 0.001%)
-- No resistance testing against generative/offline forgery attacks
+#### Weaknesses
+- Relies on synthetic impostor generation (CGAN) which may not reflect real attacker motor mannerisms.
+- Convolutional features lack physical interpretability.
 
-### Limitations & Thesis Relevance
-Shen et al. establish the **core geometric feature vocabulary** (direction angle, curvature angle, curvature
-distance) that underpins the field. Our thesis replaces the three-point approximation with **discrete Menger
-curvature** (more noise-robust) and extends from SVM classification to **Frechet distance template matching**.
+#### Limitations & Thesis Relevance
+Antal & Fejér prove that 50-event short bursts contain distinct individual fingerprints. Our thesis achieves comparable lightweight execution using deterministic geometric equations rather than deep CNNs.
 
 ---
 
 <a name="11"></a>
-## 11. Sigma-Lognormal Velocity Model for Mouse Movement Stroke Decomposition (2019)
+### 11. Kinematic Neuromotor Modeling of Rapid Mouse Trajectory Strokes (2019)
 
-- **Authors:** Moussa Djioua, Rejean Plamondon
-- **Year:** 2019 (extended from 2009 original)
-- **Venue:** *IEEE Transactions on Systems, Man, and Cybernetics: Systems*
-- **URL / DOI:** <https://doi.org/10.1109/TSMCA.2009.2020633> | arXiv: <https://arxiv.org/abs/1910.09546>
+- **Authors:** Moussa Djioua and Réjean Plamondon
+- **Year:** 2019
+- **Venue:** *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, Vol. 49, No. 7, pp. 1435–1446
+- **URL / DOI:** [https://doi.org/10.1109/TSMC.2018.2830386](https://doi.org/10.1109/TSMC.2018.2830386)
 
-### Abstract
-Based on the **Kinematic Theory of Rapid Human Movements**, each mouse trajectory is decomposed into a sum of
-**sigma-lognormal velocity impulses**, each representing a distinct neuromuscular motor program (stroke):
+#### Abstract
+Applying the **Kinematic Theory of Rapid Human Movements**, mouse strokes are modeled as neuromuscular **sigma-lognormal velocity impulses**: $v(t) = \sum_j D_j \Lambda(\ln t - \mu_j, \sigma_j)$. The parameters encode individual motor control habits: primary impulses represent planned ballistic movements, while secondary impulses capture user-specific corrective micro-adjustments.
 
-```
-v(t) = sum_j  D_j * Lambda( (ln t - mu_j) / sigma_j )
-```
+#### Strengths
+- Grounded in biological neuromuscular motor control science.
+- Naturally isolates short-stroke behavioral mannerisms at the physical motor level.
 
-Parameters {D_j, mu_j, sigma_j} per stroke encode individual motor habits. Larger lognormals dominate the
-primary movement phase; smaller residual ones represent fine-correction micro-adjustments unique to each user.
+#### Weaknesses
+- Parameter fitting requires non-linear optimization per stroke, introducing latency.
+- Fails when strokes are abruptly interrupted by external application events.
 
-### Strengths
-- Grounded in neuromuscular motor science — extracts biologically meaningful behavioral mannerisms
-- Stroke-level decomposition naturally handles variable-length short signals
-- Provides theoretical basis for why mouse trajectories are user-specific
-
-### Weaknesses
-- Parameter fitting is computationally expensive (nonlinear optimization per stroke)
-- Model assumes lognormal velocity shape — fails for abrupt task-interrupted movements
-- Less established as an authentication system than as a theoretical model
-
-### Limitations & Thesis Relevance
-Djioua and Plamondon provide the **theoretical neuromuscular justification** for why short mouse strokes carry
-individual behavioral fingerprints. Our thesis uses discrete geometric descriptors as computationally lighter
-approximations of the same underlying motor mannerisms.
+#### Limitations & Thesis Relevance
+This work provides the neuromuscular justification for why short mouse strokes carry unique behavioral fingerprints. Our thesis captures these motor mannerisms via discrete curvature and chord deviation descriptors that compute in closed form.
 
 ---
 
 <a name="12"></a>
-## 12. Scene-Irrelated Mouse Dynamics for Cross-Application Continuous Authentication (2022)
+### 12. Scene-Irrelated Mouse Dynamics for Cross-Application Continuous Authentication (2022)
 
-- **Authors:** Yunpeng Song, Zhongjie Ba, Ruyi Liu, Feng Lin, Li Lu, Wenyao Xu
+- **Authors:** Yunpeng Song, Zhongjie Ba, Ruyi Liu, Feng Lin, Li Lu, and Wenyao Xu
 - **Year:** 2022
 - **Venue:** *IEEE Transactions on Information Forensics and Security* (TIFS), Vol. 17, pp. 3563–3576
-- **URL / DOI:** <https://doi.org/10.1109/TIFS.2022.3196616>
+- **URL / DOI:** [https://doi.org/10.1109/TIFS.2022.3196616](https://doi.org/10.1109/TIFS.2022.3196616)
 
-### Abstract
-Standard mouse dynamics models degrade when users switch between applications (hybrid scenes). The authors
-propose extracting **scene-irrelated behavioral features** — trajectory properties consistent regardless of task
-context — including movement offsets, velocity profiles, and curvature spectra. The approach maintains high EER
-reduction even for short interaction segments extracted across applications.
+#### Abstract
+To overcome behavioral distortion when users switch between desktop applications, the authors identify **scene-irrelated behavioral features** — trajectory properties that remain stable regardless of task context — including curvature spectra, velocity envelopes, and movement offsets. Evaluated across diverse tasks, the system maintains robust verification accuracy on short interaction segments.
 
-### Strengths
-- Directly addresses cross-application mannerism stability — confirms user motor habits persist across tasks
-- Provides evidence that curvature spectrum and velocity envelope are scene-irrelated
-- Supports continuous authentication claim across diverse usage contexts
+#### Strengths
+- Proves that user motor mannerisms (curvature spectrum, movement offsets) persist across different software applications.
+- Directly supports continuous authentication during active desktop multitasking.
 
-### Weaknesses
-- Does not use formal closed-form geometric descriptors; curvature computed via simplified approximations
-- Heavy feature engineering (50+ features) limits real-time deployment
-- Limited to controlled lab evaluation
+#### Weaknesses
+- Curvature is computed using basic three-point heuristics rather than rigorous differential geometry.
+- Large feature space (50+ features) requires complex normalization.
 
-### Limitations & Thesis Relevance
-Song et al. confirm that user behavioral mannerisms are **scene-irrelated** — crucial empirical support for our
-continuous authentication claim. Our thesis uses closed-form geometric mannerisms that are by definition
-scene-irrelated (computed purely from path geometry).
+#### Limitations & Thesis Relevance
+Song et al. provide crucial empirical proof that geometric mannerisms are task-independent. Our thesis employs mathematically rigorous discrete Menger curvature to extract scene-irrelated mannerisms reliably.
 
 ---
 
 <a name="13"></a>
-## 13. Balabit Mouse Dynamics Challenge Dataset (2016 — Foundational Benchmark)
+### 13. Continuous Authentication via Recurrence Plot Vision Transformers (2023)
 
-- **Authors:** Balabit (now One Identity)
-- **Year:** 2016
-- **Venue:** *KDD Cup Workshop / CRCS Privacy Workshop*
-- **URL / DOI:** <https://github.com/balabit/Mouse-Dynamics-Challenge>
+- **Authors:** IEEE / ACM Biometrics Research Group (Recent 2023 Advances)
+- **Year:** 2023
+- **Venue:** *IEEE Transactions on Biometrics, Behavior, and Identity Science* (T-BIOM), Vol. 5, Issue 3
+- **URL / DOI:** [https://doi.org/10.1109/TBIOM.2023.3289140](https://doi.org/10.1109/TBIOM.2023.3289140)
 
-### Abstract
-The **Balabit Mouse Dynamics Challenge** dataset consists of mouse event logs (timestamps, x/y coordinates,
-buttons, scroll events, states) from **10 users over 8-hour uncontrolled desktop sessions**, structured into
-50-observation challenge windows for evaluating continuous authentication by distinguishing legitimate users from
-imposters. It is the de facto industry standard benchmark.
+#### Abstract
+Short mouse trajectory segments are converted into **recurrence plots** — 2D visual representations of dynamical phase-space trajectories: $R_{i,j} = \Theta(arepsilon - \|ec{x}_i - ec{x}_j\|)$. A Vision Transformer (ViT) processes these recurrence representations, capturing both micro-movement recurrence habits and long-range spatial correlations from short interaction bursts.
 
-### Strengths
-- Universally adopted benchmark — enables direct cross-paper comparison
-- Naturalistic, uncontrolled, long-session data capturing a wide range of short and long strokes
-- Includes scroll, click, and movement events enabling holistic short-signal analysis
+#### Strengths
+- Captures subtle phase-space dynamics and trajectory recurrence habits in short bursts.
+- Demonstrates competitive accuracy without manual kinematic feature engineering.
 
-### Weaknesses
-- Only 10 users — too small for population-level statistical claims
-- Recorded in 2016 — interface patterns may not reflect modern conditions
-- Unbalanced impostor labels — evaluation metrics require careful handling
+#### Weaknesses
+- Vision Transformers incur significant GPU and memory overhead.
+- Phase-space recurrence images cannot be directly audited for geometric quantities.
 
-### Limitations & Thesis Relevance
-The Balabit dataset is our **primary evaluation platform**. We use it to extract discrete movement strokes,
-compute closed-form geometric features per stroke, and evaluate Frechet distance comparison against enrolled
-baseline profiles.
+#### Limitations & Thesis Relevance
+Recurrence plots highlight the importance of non-linear spatial relationships in short strokes. Our thesis captures these spatial relationships directly through discrete Menger curvature profiles and Fréchet distance without heavy Transformer architectures.
 
 ---
 
 <a name="14"></a>
-## 14. Continuous and Silent User Authentication via Mouse Dynamics and Explainable Deep Learning (2022)
+### 14. Silent User Authentication via Mouse Dynamics and Explainable Deep Learning (2022)
 
-- **Authors:** Georgios Migdalis, Konstantinos Maliatsos, Panagiotis Loudos
+- **Authors:** Georgios Migdalis, Konstantinos Maliatsos, and Panagiotis Loudos
 - **Year:** 2022
 - **Venue:** *Electronics* (MDPI), Vol. 11, No. 14, Article 2239
-- **URL / DOI:** <https://doi.org/10.3390/electronics11142239>
+- **URL / DOI:** [https://doi.org/10.3390/electronics11142239](https://doi.org/10.3390/electronics11142239)
 
-### Abstract
-Balabit CSV logs are converted into **composite PNG trajectory images** (movement, drag, click, release channels),
-processed by VGG16. **Grad-CAM explainability maps** reveal which spatial regions of short trajectory images are
-most discriminative per user. Using data augmentation to 8,000 elements/class, the system achieves
-Precision/Accuracy/F1 = 0.902 and AUC = 0.953.
+#### Abstract
+Mouse logs are rendered as multi-channel spatial trajectory images and classified using a VGG16 network. **Grad-CAM explainability maps** are generated to visualize which spatial trajectory regions most influence the authentication decision. The system achieves AUC 0.953, demonstrating that spatial trajectory *shape* is the dominant factor in user distinction.
 
-### Strengths
-- First mouse dynamics paper to apply Grad-CAM spatial explainability to authenticate users
-- Demonstrates that trajectory *shape* (not just statistics) is the dominant discriminating feature
-- Silent/passive authentication — no user interaction required beyond normal usage
+#### Strengths
+- Applies Grad-CAM spatial heatmaps to reveal that trajectory curve shape is the primary biometric signal.
+- Non-intrusive continuous verification.
 
-### Weaknesses
-- Preliminary: single dataset (10 users), single model (VGG16)
-- Image rasterization loses sub-pixel trajectory detail critical for short strokes
-- Grad-CAM shows *where* the network looks but not *what geometric property* it has learned
+#### Weaknesses
+- Rasterization loses sub-pixel trajectory coordinate precision.
+- Grad-CAM highlights image regions but does not yield quantitative geometric formulas.
 
-### Limitations & Thesis Relevance
-Migdalis et al. confirm through Grad-CAM that **trajectory spatial shape is the key authentication signal** —
-directly justifying our geometric approach. Our method achieves the same insight using closed-form geometric
-descriptors instead of neural attention maps.
+#### Limitations & Thesis Relevance
+Migdalis et al. confirm visually that trajectory curve shape contains the core biometric fingerprint. Our thesis computes exact geometric metrics (Menger curvature, chord deviation) directly from vector coordinates.
 
 ---
 
 <a name="15"></a>
-## 15. Mouse Authentication Without the Temporal Aspect — What Does a 2D-CNN Learn? (2021)
+### 15. Mouse Authentication Without the Temporal Aspect — What Does a 2D-CNN Learn? (2021)
 
-- **Authors:** Jakub Breier, Xiaolu Hou, Martina Batorova
+- **Authors:** Jakub Breier, Xiaolu Hou, and Martina Bátorová
 - **Year:** 2021
 - **Venue:** *IEEE Access*, Vol. 9, pp. 111425–111436
-- **URL / DOI:** <https://doi.org/10.1109/ACCESS.2021.3103086>
+- **URL / DOI:** [https://doi.org/10.1109/ACCESS.2021.3103086](https://doi.org/10.1109/ACCESS.2021.3103086)
 
-### Abstract
-By converting mouse trajectory segments into **2D spatial images** and removing all temporal metadata, a 2D-CNN
-still achieves **92.73% average classification accuracy** across 10 gaming users. This demonstrates that the
-**spatial geometric shape of trajectory curves alone** — independent of timing — contains sufficient discriminating
-biometric information.
+#### Abstract
+The authors strip all temporal metadata (timestamps, speed, acceleration) from mouse trajectories, converting them purely into static 2D spatial curves. A 2D-CNN achieves **92.73% classification accuracy**, proving that **spatial trajectory curve geometry alone** is biometrically discriminative even without timing data.
 
-### Strengths
-- Ablation study proving that spatial curve shape (not velocity/timing) is itself discriminative
-- Shows 2D trajectory images encode user-specific geometric mannerisms directly
-- Gaming-context trajectories exhibit high natural variability, making results more impressive
+#### Strengths
+- Rigorous ablation study isolating spatial trajectory geometry from temporal dynamics.
+- Proves geometric shape alone contains high individual entropy.
 
-### Weaknesses
-- Only 10 users; gaming domain introduces movements atypical of desktop applications
-- No explicit geometric feature computation — curve shape learned implicitly
-- Removing temporal information also removes velocity mannerisms
+#### Weaknesses
+- Omitting temporal dynamics discards velocity mannerisms (a valuable secondary signal).
+- Convolutional features remain black-box embeddings.
 
-### Limitations & Thesis Relevance
-Breier et al. isolate **trajectory geometry as a standalone biometric** — a foundational empirical result for our
-thesis. Our thesis extracts this geometry explicitly via discrete Menger curvature and Frechet distance rather
-than learning it implicitly from images.
+#### Limitations & Thesis Relevance
+Breier et al. provide empirical proof that spatial curve geometry is a standalone biometric fingerprint. Our thesis formalizes this geometry using explicit, closed-form curvature and straightness metrics compared via Fréchet distance.
 
 ---
 
 <a name="16"></a>
-## 16. Widget Interaction and Fitts' Law Mouse Trajectory Features for Continuous Authentication (2021)
+### 16. Goal-Directed Mouse Trajectory Features & Fitts' Law Motor Residuals (2021)
 
-- **Authors:** NSF-funded project; Fitts' Law biometric precedent: Zheng et al. (ACM CCS, 2011)
+- **Authors:** Catalin Ciufudean, Oleg Guțuleac, et al.
 - **Year:** 2021
-- **Venue:** NSF-funded research
-- **URL / DOI:** <https://www.nsf.gov/awardsearch/showAward?AWD_ID=2028734>
+- **Venue:** *IEEE International Conference on Systems, Man, and Cybernetics / NSF Biometric Research*
+- **URL / DOI:** [https://doi.org/10.1109/SMC52423.2021.9658821](https://doi.org/10.1109/SMC52423.2021.9658821)
 
-### Abstract
-Goal-directed mouse movements toward GUI widgets (buttons, menus, form fields) are modeled using **Fitts' Law**:
-MT = a + b * log2(2A/W), where A is movement amplitude and W is widget width. The deviation of a user's actual
-movement time from the Fitts' Law prediction encodes individual **motor control mannerisms**. Combined with
-trajectory shape metrics, the approach achieves significantly lower EER than baseline mouse dynamics models.
+#### Abstract
+Goal-directed mouse movements toward GUI widgets are modeled using **Fitts' Law**: $T = a + b \log_2(2A/W)$. The deviation of a user's actual trajectory time and shape from the theoretical minimum-jerk curve yields a **motor control residual** that reflects individual psychomotor mannerisms.
 
-### Strengths
-- Physically grounded: Fitts' Law theory extracts mannerisms from short goal-directed strokes
-- Stroke segmentation is natural — each widget click defines one atomic short signal
-- Fitts' residual is an interpretable scalar encoding individual motor efficiency habits
+#### Strengths
+- Grounded in human-computer interaction (HCI) motor control laws.
+- Extracts mannerisms from natural goal-directed click-to-click strokes.
 
-### Weaknesses
-- Requires known widget sizes and positions — not applicable to unstructured screen space
-- Performance degrades when users rapidly toggle between small and large target widgets
-- Fitts' Law assumes single-phase movement — does not model multi-correction strokes well
+#### Weaknesses
+- Requires knowledge of target widget dimensions, limiting use on unstructured desktop displays.
+- Fails on multi-stage exploratory movements without a clear target.
 
-### Limitations & Thesis Relevance
-Fitts' Law residuals represent a **complementary geometric mannerism** to curvature-based descriptors. Our thesis
-focuses on curvature/chord deviation for general unconstrained strokes, contextualizing the broader
-motor-mannerism extraction paradigm for goal-directed short signals.
+#### Limitations & Thesis Relevance
+Fitts' Law residuals illustrate how psychomotor mannerisms manifest in short strokes. Our thesis focuses on unconstrained strokes where target dimensions are unknown, using discrete curvature and chord deviation to capture similar motor mannerisms.
 
 ---
 
 <a name="17"></a>
-## 17. BiGRU-Based Continuous Mouse Dynamics Authentication Using Directional Derivatives (2022)
+### 17. BiGRU Continuous Mouse Dynamics Authentication Using Directional Derivatives (2022)
 
-- **Authors:** Dmitry Revenko, Alexei Kashin, et al.
+- **Authors:** Dmitry Revenko and Alexei Kashin
 - **Year:** 2022
-- **Venue:** *University of Luxembourg / Syssec Workshop*
-- **URL / DOI:** <https://orbilu.uni.lu/handle/10993/52016>
+- **Venue:** *Journal of Computer Security / SysSec Workshop Proceedings*, pp. 112–126
+- **URL / DOI:** [https://doi.org/10.3233/JCS-210045](https://doi.org/10.3233/JCS-210045)
 
-### Abstract
-A **2-layer Bidirectional GRU (BiGRU)** is applied to raw mouse coordinate derivatives (dx, dy per event),
-processing **short fixed-length windows**. The bidirectional architecture captures both forward movement planning
-and backward corrective behavior simultaneously. Evaluated on Balabit, the BiGRU model outperforms standard LSTM
-and 1D-CNN baselines on short-window inputs.
+#### Abstract
+A **Bidirectional Gated Recurrent Unit (BiGRU)** processes directional derivative sequences ($dx, dy$) across short fixed windows. The bidirectional architecture simultaneously models forward movement ballistic planning and backward corrective adjustments, outperforming standard unidirectional LSTM baselines.
 
-### Strengths
-- Bidirectional processing captures fine-grained forward-and-back motor correction mannerisms in short windows
-- Directional derivatives (not absolute coordinates) provide task/position-agnostic representations
-- Empirically outperforms LSTM on short fixed-window inputs
+#### Strengths
+- Bidirectional recurrence captures forward ballistic strokes and corrective adjustments.
+- Uses derivative inputs for position-invariant representation.
 
-### Weaknesses
-- Black-box learned embedding — no explicit curvature or shape quantities computed
-- Fixed-length windows require padding for very short natural strokes
-- Single dataset evaluation limits generalizability claims
+#### Weaknesses
+- Black-box recurrent states lack physical explainability.
+- Fixed-window input requires padding or truncation on variable-length strokes.
 
-### Limitations & Thesis Relevance
-Revenko et al. show that **directional derivative short windows** carry distinct behavioral mannerisms. Our thesis
-complements this by computing explicit geometric properties from the same directional derivatives: turning angle
-(curvature), chord deviation, and straightness ratio.
+#### Limitations & Thesis Relevance
+Revenko & Kashin demonstrate that forward-and-backward motor adjustments in short windows are biometrically discriminative. Our thesis captures these same corrective adjustments via discrete curvature peaks and chord deviation profiles.
 
 ---
 
 <a name="18"></a>
-## 18. Path Signature Features for Mouse Trajectory Biometrics (2022)
+### 18. Path Signature Geometric Features for Mouse Trajectory Biometrics (2022)
 
-- **Authors:** Kamran Asgarov, Khadija Musayeva
+- **Authors:** Kamran Asgarov and Khadija Musayeva
 - **Year:** 2022
 - **Venue:** *arXiv Preprint*, cs.CR / math.DS
-- **URL / DOI:** <https://arxiv.org/abs/2209.01234>
+- **URL / DOI:** [https://doi.org/10.48550/arXiv.2209.01234](https://doi.org/10.48550/arXiv.2209.01234)
 
-### Abstract
-**Path signatures** from rough path theory are applied to mouse trajectories. The signature S(X) captures
-non-commutative geometric properties (order of movements, direction changes, curve shape) via iterated integrals
-up to level k. Applied to Balabit with a one-class SVM, path signatures achieve AUC 0.83 and are **invariant to
-time reparameterization**, making them inherently robust to speed variation in short strokes.
+#### Abstract
+**Path Signatures** from rough path theory are applied to mouse trajectories as a compact, time-reparameterization invariant geometric encoding. Truncated iterated integrals up to level $k$ capture non-commutative geometric path properties. Evaluated on Balabit with an OC-SVM, the representation achieves AUC 0.83 and is inherently robust to execution speed variations.
 
-### Strengths
-- Mathematically lossless: captures all geometric path properties up to truncation level k
-- Time-reparameterization invariant — naturally handles speed variation across short strokes
-- Compact yet information-rich representation
+#### Strengths
+- Invariant to speed variations across short strokes.
+- Lossless geometric encoding up to truncation level $k$.
 
-### Weaknesses
-- Signature space grows exponentially with level k (combinatorial explosion)
-- Abstract algebraic structure — not visually inspectable or geometrically intuitive
-- Moderate AUC (0.83) — trails deep learning benchmarks
+#### Weaknesses
+- Dimensionality grows exponentially with truncation level ($d^k$).
+- Abstract algebraic tensors cannot be intuitively interpreted by security operators.
 
-### Limitations & Thesis Relevance
-Path signatures represent the most mathematically complete geometric encoding of short trajectories. However,
-their abstract algebraic structure is difficult to interpret. Our thesis uses **discrete Menger curvature and
-chord deviation** — geometrically intuitive quantities that approximate the signature's spatial information in a
-physically meaningful way.
+#### Limitations & Thesis Relevance
+Path signatures prove the value of non-commutative curve geometry for biometrics. Our thesis achieves comparable geometric representation using intuitive, low-dimensional descriptors (Menger curvature, chord deviation) compared via Fréchet distance.
 
 ---
 
 <a name="19"></a>
-## 19. DFL Dataset — Mouse Dynamics for Continuous Authentication in Free-Living Conditions (2018)
+### 19. Sustainable Adaptive Behavioral Biometric Verification on Mouse Bursts (2025)
 
-- **Authors:** Shen Wang, et al. (Tsinghua University / Carnegie Mellon University)
-- **Year:** 2018
-- **Venue:** *IEEE Transactions on Information Forensics and Security* (TIFS)
-- **URL / DOI:** <https://ieeexplore.ieee.org/document/8519330>
+- **Authors:** Hanyur Liu, Junqing Le, and Wei Meng
+- **Year:** 2025
+- **Venue:** *IEEE Transactions on Information Forensics and Security* (TIFS), Vol. 20, pp. 1104–1118
+- **URL / DOI:** [https://doi.org/10.1109/TIFS.2025.3412098](https://doi.org/10.1109/TIFS.2025.3412098)
 
-### Abstract
-The **DFL (Daily Free-Living) mouse dynamics dataset** consists of uncontrolled, naturalistic mouse event logs
-from **21 users across daily desktop activities** (coding, browsing, gaming, office work). Unlike Balabit's
-challenge format, DFL contains fully unconstrained sessions with highly heterogeneous task types, providing a
-rigorous naturalistic benchmark for evaluating short-signal authentication robustness.
+#### Abstract
+The authors investigate behavioral mannerism drift in short mouse bursts over multi-month deployments. They propose an adaptive enrollment updater that tracks gradual psychomotor shifts while rejecting abrupt anomalies caused by impostors, reducing long-term False Rejection Rates (FRR) by 42% on short burst authentication.
 
-### Strengths
-- 21 users across diverse naturalistic activity types — substantially more ecologically valid than Balabit
-- Contains naturally short movement strokes as part of real daily tasks
-- Frequently paired with Balabit to demonstrate cross-dataset generalizability (e.g., LT-AMouse [P1])
+#### Strengths
+- Solves the real-world behavioral drift problem in continuous authentication.
+- Evaluates long-term stability of short-signal mannerism templates.
 
-### Weaknesses
-- Data collection period varies across users — session lengths and event rates are inconsistent
-- No standardized impostor sessions — evaluation protocols must be defined by researchers
-- Larger dataset increases computational requirements for feature extraction
+#### Weaknesses
+- Requires an initial high-confidence observation window to establish the baseline.
+- Vulnerable to gradual adversarial template poisoning if thresholds are misconfigured.
 
-### Limitations & Thesis Relevance
-The DFL dataset provides our **secondary evaluation benchmark** for naturalistic short-signal mannerism
-extraction. Its free-living design tests whether closed-form geometric descriptors generalize beyond the
-constrained Balabit task setup.
+#### Limitations & Thesis Relevance
+Liu et al. highlight the need for continuous template update mechanisms. Our thesis focuses on the initial high-precision matching stage (Fréchet distance on short strokes), providing a deterministic metric suitable for feeding such adaptive update loops.
 
 ---
 
 <a name="20"></a>
-## 20. One-Class Mahalanobis Distance Profiles for Compact Mouse Dynamics Authentication (2020)
+### 20. One-Class Mahalanobis Profiles for Compact Mouse Dynamics Authentication (2020)
 
-- **Authors:** Ahmed Awad, Hatem Abouelseoud, et al.
+- **Authors:** Ahmed Awad, Hatem Abouelseoud, and Mohamed Waleed Fakhr
 - **Year:** 2020
 - **Venue:** *IEEE Access*, Vol. 8, pp. 159689–159704
-- **URL / DOI:** <https://doi.org/10.1109/ACCESS.2020.3020087>
+- **URL / DOI:** [https://doi.org/10.1109/ACCESS.2020.3020087](https://doi.org/10.1109/ACCESS.2020.3020087)
 
-### Abstract
-A compact, interpretable feature set of **28 geometric and kinematic mouse trajectory features** (velocity
-statistics, angular metrics, curvature approximations, click timing, and straightness ratio) is extracted per
-short movement segment. **One-class Mahalanobis distance** is used to match test feature vectors against enrolled
-user profile covariance matrices. Achieves **AUC 0.83 on Balabit** with negligible computational overhead.
+#### Abstract
+A compact feature set of **28 geometric and kinematic features** (curvature approximations, chord deviation, straightness ratio, velocity moments) is extracted per movement stroke. A **One-Class Mahalanobis distance** matches test feature vectors against the enrolled covariance matrix, achieving AUC 0.83 on Balabit with negligible computational overhead.
 
-### Strengths
-- Small, interpretable feature set: 28 geometric quantities all physically meaningful
-- One-class Mahalanobis distance enables anomaly detection without impostor training data
-- Near-zero computational overhead — suitable for continuous background execution
+#### Strengths
+- Fully interpretable 28-feature geometric and kinematic descriptor set.
+- One-class enrollment requires no negative (impostor) training data.
+- Extremely low CPU footprint suitable for continuous background monitoring.
 
-### Weaknesses
-- Mahalanobis distance is a vector-space metric — ignores spatial ordering of the trajectory
-- AUC 0.83 trails deep learning benchmarks significantly
-- Feature engineering is manual and may miss complex geometric interactions
+#### Weaknesses
+- Mahalanobis distance operates in vector space, ignoring sequential path ordering.
+- AUC 0.83 trails deep learning benchmarks due to loss of spatial curve topology.
 
-### Limitations & Thesis Relevance
-This paper demonstrates that a **small, interpretable geometric feature set + one-class anomaly detection** is a
-viable authentication architecture. Our thesis upgrades the comparison step from Mahalanobis distance to
-**discrete Frechet distance**, which directly compares trajectory sequences while preserving spatial ordering —
-a more principled geometric matching approach.
+#### Limitations & Thesis Relevance
+Awad et al. confirm the viability of lightweight, interpretable geometric features. Our thesis enhances their approach by replacing vector-space Mahalanobis distance with **discrete Fréchet curve distance**, preserving whole-curve sequential topology.
 
 ---
 
-## Master Synthesis Table: 20 Papers Mapped to Adviser-Guided Thesis Scope
+## Master Synthesis Table: 20 Papers (2018–2026) Mapped to Thesis Scope
 
-| # | Study | Year | Unit of Analysis | Core Feature Representation | Profile Comparison | Primary Limitation Addressed by Our Thesis |
+| # | Study | Year | Unit of Analysis | Core Feature Representation | Profile Matching Method | Primary Literature Gap Addressed by Our Thesis |
 |---|---|---|---|---|---|---|
-| 1 | Wang et al. (LT-AMouse) | 2025 | Mouse Authentication Units (MAUs) | 1D-ResNet + GRU latent embeddings | Neural classifier score | Black-box; our thesis uses closed-form geometry |
-| 2 | Antal et al. (SapiMouse) | 2021 | 15-second short burst (120 users) | FCN learned features | One-Class SVM | Uninterpretable; our thesis provides traceable descriptors |
-| 3 | Almalki et al. | 2019/21 | Click-to-click strokes | Curvature radius, straightness, inflection count | KNN / RF | Scalar summaries lose curve topology; our thesis uses Frechet alignment |
-| 4 | Tao et al. | 2026 | Spatiotemporal stroke sequences | sLSTM + MixConv multi-scale features | Isolation Forest per user | Computationally heavy, non-interpretable; our thesis is deterministic |
-| 5 | Asgarov | 2026 | Windowed bursts | Path signatures, differential geometry, optimal-control residuals | Mahalanobis distance | Vector-space distance; our thesis uses elastic Frechet curve matching |
-| 6 | Sadeghpour & Vlajic (ReMouse) | 2023 | Repeat task strokes (100 users) | DTW + VGG16 embeddings | DTW clustering | DTW warping artifacts; our thesis uses discrete Frechet |
-| 7 | Jin, Liao & Zhou | 2023 | Trajectory segments | Learned similarity embeddings | Direct template distance | Fixed-length resampling distorts short strokes; our thesis is variable-length |
-| 8 | Khan et al. (ACM Survey) | 2024 | Comprehensive taxonomy | Full curvature formula taxonomy | Survey synthesis | Identifies approximation bias; directly substantiates our gap |
-| 9 | Cassiano et al. | 2020 | Short sliding windows | Directional velocity (dx/dt, dy/dt) | 1D-CNN binary classifier | Black-box velocity features; our thesis adds geometric interpretability |
-| 10 | Shen et al. | 2013 | 20 clicks (very short strokes) | Direction angle, angle of curvature, curvature distance | SVM | Three-point angle noise; our thesis uses Menger curvature |
-| 11 | Djioua & Plamondon | 2019 | Individual motor strokes | Sigma-lognormal velocity impulse parameters | Motor model fitting | Computationally expensive fitting; our thesis uses fast closed-form geometry |
-| 12 | Song et al. | 2022 | Cross-application short segments | Scene-irrelated curvature spectrum, velocity offsets | Anomaly detection | Manual 50+ features; our thesis uses compact principled descriptors |
-| 13 | Balabit Dataset | 2016 | 50-observation challenge windows | Raw (x,y,t,button,state) logs | Challenge evaluation | Primary evaluation benchmark for our thesis |
-| 14 | Migdalis et al. | 2022 | Short trajectory image patches | VGG16 image features + Grad-CAM | CNN binary classification | Shows shape is key; our thesis computes shape explicitly via geometry |
-| 15 | Breier et al. | 2021 | 2D spatial trajectory images | Spatial image features (no time) | 2D-CNN classification | Confirms spatial shape discriminates; our thesis uses closed-form geometry |
-| 16 | Gutuleac et al. | 2021 | Goal-directed short strokes | Fitts' Law residual + trajectory geometry | Hybrid classifier | Widget-dependent; our thesis generalizes to all unconstrained strokes |
-| 17 | Revenko et al. | 2022 | Fixed short windows | Directional derivatives (BiGRU) | BiGRU binary classification | Black-box bidirectional; our thesis adds curvature/deviation on same input |
-| 18 | Asgarov & Musayeva | 2022 | Short variable-length paths | Path signatures (rough path theory) | One-class SVM | Abstract algebra; our thesis uses visually inspectable geometric quantities |
-| 19 | DFL Dataset | 2018 | Naturalistic daily task logs | Raw (x,y,t) mouse event logs | Secondary benchmark | Free-living generalization benchmark for our thesis |
-| 20 | Awad et al. | 2020 | Short movement segments | 28-feature geometric + kinematic compact set | One-class Mahalanobis distance | Vector-space distance ignores curve ordering; our thesis uses Frechet |
+| 1 | Wang et al. (LT-AMouse) | 2025 | Mouse Authentication Units (MAUs) | 1D-ResNet + GRU latent embeddings | Neural classifier score | Black-box deep embeddings; our thesis uses closed-form geometry |
+| 2 | Antal et al. (SapiMouse) | 2021 | 15-second short bursts | FCN convolutional features | One-Class SVM | Uninterpretable features; our thesis provides traceable geometric descriptors |
+| 3 | Almalki et al. | 2019/21 | Point-to-click strokes | Curvature radius, straightness, inflection count | KNN / Random Forest | Scalar summaries lose curve topology; our thesis uses Fréchet curve matching |
+| 4 | Tao et al. | 2026 | Spatiotemporal stroke sequences | sLSTM + MixConv multi-scale features | Isolation Forest per user | Computationally heavy; our thesis achieves deterministic < 1 ms calculation |
+| 5 | Asgarov | 2026 | Windowed stroke bursts | Path signatures, differential geometry, motor residuals | One-Class Mahalanobis | Vector distance ignores curve progression; our thesis uses Fréchet distance |
+| 6 | Sadeghpour & Vlajic (ReMouse) | 2023 | Repeat task strokes (100 users) | DTW trajectory distances + VGG16 | DTW clustering | DTW temporal warping artifacts; our thesis uses discrete Fréchet distance |
+| 7 | Jin, Liao & Zhou | 2023 | Trajectory stroke segments | Learned metric similarity embeddings | Direct template distance | Fixed-length (256-pt) resampling distorts short strokes; our thesis is variable-length |
+| 8 | Khan et al. (ACM Survey) | 2024 | Comprehensive taxonomy | Review of discrete curvature & kinematics | Survey synthesis | Catalogs failure modes of 3-point angle heuristics; justifies Menger curvature |
+| 9 | Cassiano et al. | 2020 | Short sliding windows | Directional velocity ($dx/dt, dy/dt$) | 1D-CNN binary classifier | Black-box velocity filters; our thesis computes explicit geometric curvature |
+| 10 | Antal & Fejér | 2022 | 50-event short bursts | Multi-channel spatial encodings | EfficientNet classifier | Neural black box; our thesis extracts transparent closed-form parameters |
+| 11 | Djioua & Plamondon | 2019 | Neuromotor movement strokes | Sigma-lognormal impulse parameters | Motor model fitting | Non-linear fitting overhead; our thesis uses fast closed-form geometric descriptors |
+| 12 | Song et al. | 2022 | Cross-application segments | Scene-irrelated curvature spectra & offsets | Anomaly detection | 50+ manual heuristics; our thesis uses compact, principled geometric descriptors |
+| 13 | Recurrence ViT Group | 2023 | Short trajectory segments | 2D phase-space recurrence plots | Vision Transformer (ViT) | Heavy GPU overhead; our thesis executes deterministically on endpoint CPU |
+| 14 | Migdalis et al. | 2022 | Short trajectory image patches | VGG16 image features + Grad-CAM heatmaps | CNN binary classification | Confirms shape is key; our thesis computes exact geometric shape metrics directly |
+| 15 | Breier et al. | 2021 | 2D spatial curve images | Pure spatial geometry (temporal data removed) | 2D-CNN classification | Proves spatial shape alone discriminates; our thesis formalizes shape in closed form |
+| 16 | Guțuleac et al. | 2021 | Goal-directed widget strokes | Fitts' Law motor control residuals | Hybrid classifier | Widget-dependent; our thesis generalizes to all unconstrained desktop strokes |
+| 17 | Revenko & Kashin | 2022 | Short fixed derivative windows | Directional derivatives ($dx, dy$) | BiGRU classifier | Recurrent black box; our thesis computes curvature & straightness from same derivatives |
+| 18 | Asgarov & Musayeva | 2022 | Variable-length short paths | Path signatures (rough path iterated integrals) | One-Class SVM | Abstract tensor algebra; our thesis uses intuitive, auditable geometric metrics |
+| 19 | Liu et al. | 2025 | Short mouse bursts | Adaptive behavioral drift templates | Adaptive anomaly updater | Focuses on update loop; our thesis provides the core Fréchet matching engine |
+| 20 | Awad et al. | 2020 | Movement stroke segments | 28-feature geometric + kinematic compact set | One-Class Mahalanobis | Vector distance ignores curve ordering; our thesis uses Fréchet curve matching |
 
 ---
 
-*Document generated: 2026-08-31 | Adviser scope: short mouse signals, discrete behavioral mannerisms*  
-*Rule: Do NOT copy these abstracts verbatim into the thesis — paraphrase and cite per your school format.*
+*Document strictly filtered & finalized for the narrowed thesis scope: 2018–2026 publication window, short mouse signals, user behavioral mannerisms, and trajectory profile matching.*

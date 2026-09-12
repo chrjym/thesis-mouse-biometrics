@@ -19,6 +19,7 @@ Supports work on the thesis **"Measuring Behavioral Fingerprints of Users in Mou
   them directly against our proposed closed-form geometric approach.
 - `references/literature-sources.md` — options, access methods, status, and instructions for querying academic APIs (arXiv, OpenAlex, Semantic Scholar, CORE, Crossref, etc.).
 - `references/example-rrl-fetch.py` — automated fetch and cross-checking script for retrieving candidate literature from free/no-key APIs and comparing against the annotated bibliography.
+- `references/pipeline.md` — end-to-end methodology pipeline specification: short-signal segmentation, closed-form geometric mannerism extraction (Menger curvature, chord deviation, straightness ratio, convex hull), Discrete Fréchet distance comparison, and continuous dynamic trust scoring.
 - `references/adviser-log.md` — running log of adviser meetings/feedback. Always check it before
   giving thesis direction to ensure alignment with adviser decisions and requests.
 
